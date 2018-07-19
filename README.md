@@ -15,189 +15,56 @@ más comentado.
 
 ## Introducción
 
-Una emprendedora nos ha encargado crear una red social. No nos da mucho detalle
-sobre qué tipo de red social quiere, sólo nos dice que creemos la mejor que
-podamos, y que luego la convenzamos de lanzarla al mercado. Nos da ciertos temas
-en los que le gustaría invertir:
+Uno de los temas de mayor complejidad social es el relativo al suicidio. Se trata de un fenómeno determinado por las precarias condiciones de salud mental de amplios sectores de la población, y el cual se asocia a múltiples factores, que van desde el padecimiento de enfermedades crónico-degenerativas, hasta problemáticas vinculadas con desórdenes de la personalidad.
 
-* Alimentación
-* Feminismo
-* Educación
-* Salud
-* Energías Renovables
+La tendencia registrada de la mortalidad por suicidios en el país va en aumento, y se ha llegado a niveles más que preocupantes; en efecto, los datos de los años 2015 y 2016, registrados por el Instituto Nacional de Estadística y Geografía (INEGI), muestran indicadores de 6,425 y 6,370 casos, respectivamente.
 
-## Objetivos
+De manera acumulada, entre los años 2010 y 2016, el INEGI estima que se han consumado 41,321 casos de suicidio en todo el país; sin embargo, en estudios previos, dados a conocer mediante la publicación Estadísticas de Suicidio e Intentos de Suicidio (la cual lamentablemente dejó de editar hace algunos años), el propio INEGI alertaba que, por cada caso en que se concretaba el suicidio, podría haber hasta 8 casos en los que la persona que lo intentó había fallado en su propósito.
 
-El objetivo principal de aprendizaje de este proyecto es construir un sitio web
-[_responsive_](https://github.com/Laboratoria/curricula-js/tree/master/topics/css/02-responsive)
-con más de una vista (página), y en el que podamos leer y escribir datos.
 
-Algunos objetivos específicos:
+## Analisis Argumentativo de la red social.
 
-* Entender las necesidades de los usuarios para los que crearás el producto y
-  que ayudarás a resolver.
-* Poner en juego tu creatividad para generar ideas que lleven a una solución
-  original y valiosa del problema.
-* Cuentas con el apoyo de tus compañeras, debes trabajar en equipo buscando
-  _feedback_ constante.
+Un dato a destacarse es que en los últimos años se ha incrementado de manera significativa el promedio en el número de casos. En efecto, si se toma al periodo del 2010 al 2013, el promedio identificado por el INEGI es de 5,547 casos por año; en contraste, el promedio para el periodo de 2014 al 2016 es de 6,377 casos por año, es decir, un incremento de 14% entre ambos periodos.
 
-## Consideraciones generales
+En números absolutos, las entidades en donde se han registrado más casos de suicidios entre los años 2010 y 2016 son las siguientes: 1) el Estado de México, con 4,271 casos; 2) Jalisco, con 3,471 casos; 3) Ciudad de México, con 2,819 casos; 4) Guanajuato, con 2,677 casos; 5) Chihuahua, con 2,284 casos; 6) Veracruz, con 1,903 casos; 7) Chiapas, con 1,731 casos; 8) Nuevo León, con 1,695 casos; 9) Puebla, con 1,688 casos; 10) Sonora, con 1,472 casos; 11) Yucatán, con 1,314 casos; 12) Tabasco, con 1,204 casos; 13) Coahuila, con 1,188 casos; 14) San Luis Potosí con 1,154 casos; 15) Michoacán con 1,133 casos y 16) Tamaulipas, con 1,124 casos.
 
-Este proyecto se debe "resolver" en trios.
+![Estadistica](/images/inegiestadistica.jpg)
 
-La lógica del proyecto debe estar implementada completamente en JavaScript
-(ES6), HTML y CSS. En este proyecto **SÍ está permitido** usar librerías o
-frameworks, pero **no es obligatorio** :smiley:.
+Otro análisis que puede construirse es a través de las tasas de suicidio en cada una de las entidades; por ejemplo, tomando como referencia los años 2015 y 2016, y asumiendo que más del 95% de los suicidios se registran entre la población de 15 años y más.
 
-Para comenzar tendrás que hacer un _fork_ y _clonar_ este
-repositorio.
 
-## Parte obligatoria
+Ellos se suicidan más
 
-### General
+De acuerdo con los datos del INEGI, la tendencia de suicidios en el país muestra que son los hombres quienes en mayor medida atentan en contra de sus vidas, pues de los 41,321 casos registrados entre el 2010 y el 2016, una cifra de 33,409 correspondió a hombres (80.8% del total), mientras que 7,899 casos correspondieron a mujeres (19.5% del total).
 
-En este proyecto, hay un _boilerplate_ basico , sin configuración y una estructura recomendada de carpetas (Puedes modificar, agregar o quitar lo que creas necesario), puedes guiarte de los proyectos anteriores. Por lo tanto, los _tests_ y el _setup_ necesario para ejecutarlos serán hechos por ti misma. Recuerda, _todos los archivos estan vacios_  :smiley:.
+![Estadistica2](/images/Tendencia-Suicida.jpg)
 
-En tu  `README.md`, cuéntanos cómo pensaste y te acercaste a los usuarios,
-y cuál fue tu proceso para definir el producto final en términos de experiencia
-y de interfaz. Si tienes fotos de entrevistas, cuestionarios y/o
-sketches(bocetos) compártelos.
 
-### Responsive
+## Target,argumentacion del proyecto(negocio y usuario)
 
-Debe verse bien en dispositivos de pantallas grandes
-(computadoras/es, laptops, etc.) y pequeñas (tablets, celulares, etc.). Te
-sugerimos Seguir la técnica de `mobile first` (más detalles sobre esta técnica
-al final).
+Es una App de apoyo emocional (suicidio),que sera ideal para adolescentes (hombres y mujeres), en un rango de edad de 14 a 18 años,principalmente residentes en la Ciudad de Mexico y claro que tambien para los demas estados de la republica mexicana.
 
-### Tests
+.En base a encuestas descubrimos que la mayoria de adolescentes usan su celular como principal  medio de comunicación.
+.Sus redes sociales las visitan más en la tarde-noche.
+.La mayoria ha pasado por situaciones dificiles que no puede compartir con sus padres.
+.Recurren a sus amigos para ayuda.
+.Requieren de una red social de apoyo, que les brinde seguridad, que no los juzgue.
 
-Los tests unitarios deben cubrir un mínimo del 70% de _statements_, _functions_,
-_lines_, y _branches_.
-
-### UI y comportamiento (User Interface / Interfaz de Usuario)
-
-La interfaz debe permitir lo siguiente:
-
-#### Creación de cuenta de usuario e inicio de sesión
-
-* Login con Firebase:
-  - Solamente para el login es obligatorio usar Firebase, no para las
-    publicaciones en el muro ni las demás funcionalidades, pare eso puedes
-    usar [`localStorage`](https://developer.mozilla.org/es/docs/Web/API/API_de_almacenamiento_web/Usando_la_API_de_almacenamiento_web).
-  - Autenticación con Facebook - Google.
-* Validaciones:.
-  - No pueden haber usuarios repetidos.
-  - La cuenta de usuario debe ser un correo electrónico válido.
-  - Lo que se escriba en el campo(_input_) de contraseña debe ser secreto.
-* Comportamiento:
-  - Al enviarse un formulario de registro o inicio de sesión, debe validarse.
-  - En caso haya errores, el sistema debe mostrar mensajes de error para
-    ayudar al usuario a corregirlos.
-  - La aplicación solo permitirá el acceso a usuarios con cuentas válidas.
-  - Al recargar la aplicación, se debe verificar si el usuario está
-    logueado antes de mostrarle el contenido privado.
-* Perspectiva de interfaz:
-  ![Login](https://user-images.githubusercontent.com/9284690/40994765-c3cf9602-68c2-11e8-89ac-8254859b5ebb.png)
-
-#### Muro/timeline de la red social
-
-* Validaciones (debe tener al menos 8):
-  - Al apretar el botón de publicar, debe validar que exista contenido en el input.
-* Comportamiento:
-  - Debe poder publicar un post, imagen, post e imagen, etc.
-  - Poder poder like/Estrella (o similar) a una publicación.
-  - Debe poder llevar ó ver cuántos me like/Estrella (o similar) tiene una publicación.
-  - Debe poder eliminar un post/publicación específico.
-  - Debe pedir una confirmación antes de eliminar un post/publicación.
-  - Al darle click en el botón *editar*, debe poder cambiar el texto, imagen, post e imagen, o lo que contenga la publicación.
-    (se sugiere que el texto cambie a un input, permita editar el texto y que el
-    tenga un botón `editar` se convierta en `guardar`).
-  - Al editar solo debe poder editar sus propios post y **NO** los post de los demás usuarios.
-  - Al darle `guardar` debe regresar de vuelta a la forma que tenia antes la publicación
-    a un texto normal pero con la información editada.
-  - Al recargar la página debo de poder ver los textos editados y publicaciones
-    anteriores (persistencia).
-  - Debe poder agregar nuevos amigos
-  - Debe poder aceptar solicitudes de amigos
-  - Debe poder eliminar amigos
-  - Debe poder filtrar los posts sólo para mis amigos y para todo público.
-  - Debe poder publicar solo para mis amigos
-  - Debe poder publicar públicamente, visible para todos los usuarios de la red social.
-  - Debe poder enviar mensajes privados a mis amigos.
-* Perspectiva de interfaz:
-  ![Muro](https://user-images.githubusercontent.com/9284690/40994768-c52c3442-68c2-11e8-99a5-9e127e700dee.png)
-
-#### Otras consideraciones
-
-  - La aplicación **NO** debe poder dejar hacer publicaciones vacías de ningún tipo.
-  - El usuario debe poder agregar, editar y eliminar contenido de la red
-    social.
-  - El usuario debe poder definir la privacidad de lo que pública.
-  - Al editar contenido, el contenido editado se verá automáticamente,
-    inmediatamente después de guardar.
-  - Al recargar la página se deben poder ver los contenidos editados.
-
-Para armar la interfaz visual, utiliza como base alguna de estas guías de
-componentes:
-
-* [Guía Desktop 1](https://www.figma.com/file/F3aUqpHWOfZsEQifTPIleXo6/material-kit-free)
-* [Guía Desktop 2](https://www.figma.com/file/S39H0B1LOnaVICIUiApFTfoP/_Style-Guide---Desktop---Style-Guide)
-* [Guía Mobile 1](https://www.figma.com/file/00VTwmTNvLVaBLkxrMFbT8/Google-Material-Design)
-* [Guía Mobile 2](https://www.figma.com/file/O2Xraz3mraQHvevNsicMl91V/ejemplos-2)
-
-Personaliza estas guías con los colores y/o tipografías que creas convenientes.
-Recuerda que al hacer estas adaptaciones deberás seguir los fundamentos de
-_visual design_ como contraste, alineación, jerarquía, entre otros.
-
-## Implementación
-
-### Front end
-
-El corazón de este proyecto incluye:
-
-* Separar la manipulación del DOM de la lógica (Separación de responsabilidades).
-* Que el sitio sea responsive, ya dicho.
-* Alterar y persistir datos.  Los datos que agregues o modifiques deberán
-  persistir a lo largo de la aplicación, te recomendamos que uses
-  [`localStorage`](https://developer.mozilla.org/es/docs/Web/API/API_de_almacenamiento_web/Usando_la_API_de_almacenamiento_web)
-  como primera opción para resolver este desafío, aun así, tú
-  puedes optar por la que se acomode más a tu equipo.
-
-Además, podrías agregar algunas tareas nuevas de acuerdo a tus decisiones:
-
-* Recuerda que puedes usar una librería y/o framework si así lo desea el equipo,
-  al navegar en internet te darás cuenta de que algunas de estas construyen un
-  **boilerplate** por ti (Si no quieres usar la estructura propuesta), tenlo presente al iniciar tu proyecto.
-* Recuerda que no hay un setup de **tests** definido, dependerá de
-  la estructura de tu proyecto también, pero algo que no debes de olvidar es
-  pensar en éstas pruebas, incluso te podrían ayudar a definir la estructura y nomenclatura de tu lógica.
 
 ### UX
 
-Desde el punto de vista de UX, deberás:  
+Benchmark
 
-* Hacer un _benchamark_ de las principales redes sociales.
-* Hacer al menos 2 o 3 entrevistas con usuarios.
-* Hacer un  prototipo de alta fidelidad.
-* Testear el prototipo con usuarios.
-* Asegurarte de que la implementación en código siga los lineamientos del
-  diseño.
-* Hacer sesiones de testing con el producto en HTML.
+Objetivos	       Talk Life    	  InsideOut
+Pais/Origen	     Estados Unidos	  México
+Red social	     Si             	Si
+Apoyo emocional	 Si	              Si
+Idioma	         Ingles	          Español
+Adolescentes	   Si	              Si
 
-### Ágil
 
-Vamos a dar un paso importante para seguir aprendiendo de Ágil. Te será de mucha
-ayuda para ir avanzando tu proyecto de forma incremental y no en cascada.
 
-Esta vez te pedimos que los ítems de tu Backlog de Producto estén escritos
-como [Historias de Usuario](http://jmbeas.es/guias/historias-de-usuario/).
-Esta es una técnica muy simple que te ayudará a:
-
-* Organizar el trabajo en función del valor que le aporta al usuario.
-* Poder publicar partes completas y utilizables del producto al final del
-  sprint.
-* Que el equipo trabaje de manera multidisciplinaria de manera natural.
+  
 
 ### Habilidades Blandas
 
@@ -298,200 +165,3 @@ La idea para este producto es que el producto a desarrollar siga los
 lineamientos propuestos en el diseño de la interfaz de usuario. Asegúrate a lo
 largo de la implementación que los elementos propuestos están siendo
 implementados correctamente. (Hint: testing)
-
-## Evaluación
-
-### Tech
-
-| Habilidad | Nivel esperado |
-|-----------|----------------|
-| **JavaScript** | |
-| Estilo | 3
-| Nomenclatura/semántica | 3
-| Funciones/modularidad | 2
-| Estructuras de datos | 2
-| Tests | 2
-| **HTML** | |
-| Validación | 3
-| Estilo | 3
-| Semántica | 3
-| SEO | n/a
-| **CSS** | |
-| DRY | 3
-| Responsive | 3
-| **SCM** | |
-| Git | 3
-| GitHub | 3
-| **CS** | |
-| Lógica | 2
-| Arquitectura | 2
-| Patrones/paradigmas | n/a
-
-### UX
-
-| Habilidad | Nivel esperado |
-|-----------|----------------|
-| User Centricity | 3
-| Entrevistas | 2 |
-| Testing | 2
-| User Flow | 2
-| Jerarquía | 3
-| Alineación | 3
-| Contraste | 3
-| Color | 3
-| Tipografía | 3
-
-### Habilidades Blandas
-
-Para este proyecto esperamos que ya hayas alcanzado el nivel 3 en todas tus
-habilidades blandas. Te aconsejamos revisar la rúbrica:
-
-| Habilidad | Nivel esperado |
-|-----------|----------------|
-| Planificación y organización | 3
-| Autoaprendizaje | 3
-| Solución de Problemas | 3
-| Dar y recibir feedback | 3
-| Adaptabilidad | 3
-| Trabajo en equipo (trabajo colaborativo y responsabilidad) | 3
-| Comunicación eficaz | 3
-| Presentaciones | 3
-
-***
-
-## Pistas / Tips / Lecturas complementarias
-
-### Mobile first
-
-El concepto de [_mobile first_](https://www.mediaclick.es/blog/diseno-web-responsive-design-y-la-importancia-del-mobile-first/)
-hace referencia a un proceso de diseño y desarrollo donde partimos de cómo se ve
-y cómo funciona la aplicación en un dispositivo móvil primero, y más adelante se
-ve como adaptar la aplicación a pantallas progresivamente grandes y
-características específicas del entorno desktop. Esto es en contraposición al
-modelo tradicional, donde primero se diseñaban los websites (o webapps) para
-desktop y después se trataba de _arrugar_ el diseño para que entre en pantallas
-más chicas. La clave acá es asegurarse de que desde el principio diseñan usando
-la vista _responsive_ de las herramientas de desarrollador (developer tools) del
-navegador. De esa forma, partimos de cómo se ve y comporta la aplicación en una
-pantalla y entorno móvil.
-
-### Múltiples vistas
-
-En proyectos anteriores nuestras aplicaciones habían estado compuestas de una
-sola _vista_ principal (una sóla _página_). En este proyecto se introduce la
-necesidad de tener que dividir nuestra interfaz en varias _vistas_ o _páginas_
-y ofrecer una manera de navegar entre estas vistas. Este problema se puede
-afrontar de muchas maneras: con archivos HTML independientes (cada uno con su
-URL) y links tradicionales, manteniendo estado en memoria y rederizando
-condicionalmente (sin refrescar la página), [manipulando el historial del
-navegador](https://developer.mozilla.org/es/docs/DOM/Manipulando_el_historial_del_navegador)
-con [`window.history`](https://developer.mozilla.org/es/docs/Web/API/Window/history),
-usando una librería (por ejemplo [`react-router`](https://github.com/ReactTraining/react-router)
-o [`vue-router`](https://router.vuejs.org/)). En este proyecto te invitamos a
-explorar opciones y decidir una opción de implementación.
-
-### Escritura de datos
-
-En los proyectos anteriores hemos consumido (leído) datos, pero todavía no
-habíamos escrito datos (salvar cambios, crear datos, borrar, ...). En este
-proyecto tendrás que crear (salvar) nuevos datos, así como leer, actualizar y
-modificar datos existentes. Estos datos se podrán guardar localmente usando
-[`localStorage`](https://developer.mozilla.org/es/docs/Web/API/Window/localStorage)
-o de forma remota usando [Firebase](https://firebase.google.com/).
-
-### Te dejamos un ejemplo de una historias de usuario del proyecto anterior (_Data-dasboard_)
-
-En el proyecto "Data Dashboard", la primera historia "épica" podría haber sido:
-
-Yo, como **Training Manager** quiero poder **ver el progreso de solución de
-ejercicios de JS de las estudiantes de mi(s) cohort(s)** para **entender
-cuánto están practicando y qué tan bien les está yendo**
-
-Esta la podríamos haber dividido en algunas más pequeñas, por ejemplo:
-
-1. Yo, como **Training Manager** quiero poder **seleccionar cada uno de los
-   cohorts de mi ciudad** para **ver un listado de todas las estudiantes de ese
-   cohort, y que incluya el % de progreso de solución de ejercicios de cada una
-   de ellas**
-2. Yo, como **Training Manager** quiero poder **seleccionar a una estudiante en
-   particular** para **ver el % de progreso de solución de todos los ejercicios
-   y el resultado decada uno de ellos**
-
-Como ves, dividirla en 1 y 2, hace que sea mucho más fácil imaginar y entender
-lo que el equipo tiene que conseguir para completarla.
-
-### Te dejamos un ejemplo de una historias de usuario para este proyecto
-
-En el proyecto de la *"red social"*, las primeras historias podrían ser:
-
-* Yo, como una **feminista**, quiero poder registrarme en una nueva red social  para conectarme con otras personas con ideales como yo.
-  - Yo, como usuaria registrada en esta red social quiero poder loguearme con mi correo para empezar a usar esta red.
-  - Yo, como usuaria registrada en esta red social, quiero poder loguearme con mi cuenta facebook o google para empezar a usar esta red.
-
-* Yo, como usuaria logueada en esta red social, quiero poder postear un mensaje en mi muro para que otras personas puedan ver lo que pienso.
-
-* Yo, como usuaria logueada en esta red social, quiero poder editar o eliminar mis posts por si me arrepiento de lo que puse.
-
-* Yo, como usuaria logueada  quiero poder darle like/estrellas a un posts para expresar mi apoyo a una publicación.
-
-* Yo, como usuaria logueada quiero poder ver los posts publicos de otrxs usuarixs aunque no sean mis amigxs.
-
-* Yo, como usuaria logueada quiero poder compartir posts de texto, imagen ó texto con imagen para comunicar mejor mis ideas.
-
-Como ves en la primer historia, podemos dividir dicha historia en historias mas pequeñas, haciendo mas fácil imaginar y entender lo que el equipo tiene que conseguir para completarla e incluso podiendo dividir en tareas aún más pequeñas.
-
-Otras:
-
-* [Diseño web, responsive design y la importancia del mobile first - Media Click](https://www.mediaclick.es/blog/diseno-web-responsive-design-y-la-importancia-del-mobile-first/)
-* [Mobile First: el enfoque actual del diseño web móvil - 1and1](https://www.1and1.es/digitalguide/paginas-web/diseno-web/mobile-first-la-nueva-tendencia-del-diseno-web/)
-* [Mobile First - desarrolloweb.com](https://desarrolloweb.com/articulos/mobile-first-responsive.html)
-* [Mobile First - ZURB](https://zurb.com/word/mobile-first)
-* [Mobile First Is NOT Mobile Only - Nielsen Norman Group](https://www.nngroup.com/articles/mobile-first-not-mobile-only/)
-* [Offline first manifesto](http://offlinefirst.org/)
-
-***
-
-## Checklist
-
-### General
-
-* [ ] Producto final sigue los lineamientos del diseño.
-
-### `README.md`
-
-* [ ] Definición del producto.
-* [ ] Benchamark de las principales redes sociales.
-* [ ] Resumen de entrevistas con usuarios.
-* [ ] Link/screenshots prototipo de alta fidelidad.
-* [ ] Conclusiones de pruebas del prototipo con usuarios.
-* [ ] Conclusiones de pruebas con el producto en HTML.
-
-### Pruebas / tests
-
-* [ ] Tests unitarios cubren un mínimo del 70% de statements, functions, lines,
-  y branches.
-* [ ] Pasa tests (y linters) (`yarn test`).
-
-### Creación de cuenta (sign up)
-
-* [ ] Permite crear cuenta.
-* [ ] Valida email.
-* [ ] Valida password.
-* [ ] Muestra mensajes de error.
-
-### Inicio de sesión (sign in)
-
-* [ ] Permite iniciar sesión.
-* [ ] Valida email.
-* [ ] Valida password.
-* [ ] Muestra mensajes de error.
-
-### Muro (wall/feed)
-
-* [ ] Muestra _muro_.
-* [ ] Permite publicar nuevos posts.
-* [ ] Permite eliminar posts.
-* [ ] Pide confirmación antes de borrar posts.
-* [ ] Permite editar posts (in place).
-* [ ] Permite filtrar posts por público/amigos.
-* [ ] Permite marcar posts como _gustados_ (like).
